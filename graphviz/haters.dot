@@ -16,7 +16,7 @@ digraph {
   "finn" -> "bmo"[label="friend of"]
   "finn" -> "jake"[label="lives with"]
   "finn" -> "bmo"[label="lives with"]
-  "finn" -> "ice-king"[label="hates", color="red"]
+  "finn" -> "ice-king"[label="hates", color="red", penwidth="1"]
 
   jake [label="", image="jake.png"]
   "jake" -> "dog"[label="type"]
@@ -28,7 +28,7 @@ digraph {
   "jake" -> "bmo"[label="lives with"]
   "jake" -> "ice-king"[label="hates"]
   "jake" -> "marceline-abadeer"[label="afraid of"]
-  "jake" -> "ice-king"[label="hates"]
+  "jake" -> "ice-king"[label="hates", color="red", penwidth="1"]
 
   bmo [label="", image="bmo.png"]
   "bmo" -> "MO"[label="type"]
@@ -47,14 +47,14 @@ digraph {
   "bmo" -> "skateboarder"[label="is"]
   "bmo" -> "soccer player"[label="is"]
   "bmo" -> "chef"[label="is"]
-  "bmo" -> "ice-king"[label="hates"]
+  "bmo" -> "ice-king"[label="hates", color="red", penwidth="1"]
 
   "princess-bubblegum" [label="", image="princess-bubblegum.png"]
   "princess-bubblegum" -> "Candy People"[label="type"];
   "princess-bubblegum" -> "Princess Bubblegum"[label="name"];
   "princess-bubblegum" -> "lady-rainicorn"[label="friend of"];
   "princess-bubblegum" -> "lumpy-space-princess"[label="friend of"];
-  "princess-bubblegum" -> "ice-king"[label="hates"];
+  "princess-bubblegum" -> "ice-king"[label="hates", color="red", penwidth="1"];
 
   "ice-king" [label="", image="ice-king.png"]
   "ice-king" -> "wizard"[label="type"]
@@ -67,7 +67,7 @@ digraph {
   "lumpy-space-princess" -> "Lumpy Space Person"[label="type"]
   "lumpy-space-princess" -> "Lumpy Space Princess"[label="name"]
   "lumpy-space-princess" -> "finn"[label="has crush on"]
-  "lumpy-space-princess" -> "ice-king"[label="hates"]
+  "lumpy-space-princess" -> "ice-king"[label="hates", color="red", penwidth="1"]
 
   "lady-rainicorn" [label="", image="lady-rainicorn.png"]
   "lady-rainicorn" -> "Rainicorn"[label="type"]
@@ -76,7 +76,7 @@ digraph {
   "lady-rainicorn" -> "princess-bubblegum"[label="friend of"]
   "lady-rainicorn" -> "jake"[label="dating"]
   "lady-rainicorn" -> "Korean"[label="speaks"]
-  "lady-rainicorn" -> "ice-king"[label="hates"]
+  "lady-rainicorn" -> "ice-king"[label="hates", color="red", penwidth="1"]
 
   "marceline-abadeer" [label="", image="marceline.png"]
   "marceline-abadeer" -> "Vampire"[label="type"]
@@ -84,8 +84,8 @@ digraph {
   "marceline-abadeer" -> "Marceline Abadeer"[label="name"]
   "marceline-abadeer" -> "1003"[label="age"]
   "marceline-abadeer" -> "finn"[label="friend of"]
-  "marceline-abadeer" -> "ice-king"[label="hates"]
+  "marceline-abadeer" -> "ice-king"[label="hates", color="red", penwidth="1"]
 }
 
 /* sudo apt-get install graphviz */
-/* dot -Tpng input.dot > adventure-graph.png */
+/* dot -Tpng haters.dot > hatres.png */

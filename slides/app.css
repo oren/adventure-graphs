@@ -1,0 +1,4 @@
+/* hide ribbon */
+.slide::after {
+  display:none;
+}

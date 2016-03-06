@@ -16,7 +16,7 @@ digraph {
   "finn" -> "bmo"[label="friend of"]
   "finn" -> "jake"[label="lives with"]
   "finn" -> "bmo"[label="lives with"]
-  "finn" -> "ice-king"[label="hates", color="red"]
+  "finn" -> "ice-king"[label="hates", color="red", penwidth="1"]
 
   jake [label="", image="jake.png"]
   "jake" -> "dog"[label="type"]
@@ -28,7 +28,7 @@ digraph {
   "jake" -> "bmo"[label="lives with"]
   "jake" -> "ice-king"[label="hates"]
   "jake" -> "marceline-abadeer"[label="afraid of"]
-  "jake" -> "ice-king"[label="hates"]
+  "jake" -> "ice-king"[label="hates", color="red", penwidth="1"]
 
   bmo [label="", image="bmo.png"]
   "bmo" -> "MO"[label="type"]
@@ -88,4 +88,4 @@ digraph {
 }
 
 /* sudo apt-get install graphviz */
-/* dot -Tpng input.dot > adventure-graph.png */
+/* dot -Tpng haters-live-with-bmo.dot > haters-live-with-bmo.png */
