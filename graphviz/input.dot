@@ -1,0 +1,91 @@
+digraph {
+  graph [
+  ];
+  node [
+    style = "", fontsize = "14", fontcolor="grey22", color = "grey22", penwidth="0.5"
+  ]
+  edge [
+    color="lightskyblue", fontcolor="grey22", penwidth="0.5", fontsize="14"
+  ]
+  finn [label="", image="finn.png"]
+  "finn" -> "human"[label="type"]
+  "finn" -> "Finn"[label="name"]
+  "finn" -> "16"[label="age"]
+  "finn" -> "bubblegum"[label="has a crush on"]
+  "finn" -> "jake"[label="friend of"]
+  "finn" -> "bmo"[label="friend of"]
+  "finn" -> "jake"[label="lives with"]
+  "finn" -> "bmo"[label="lives with"]
+  "finn" -> "ice-king"[label="hates"]
+
+  jake [label="", image="jake.png"]
+  "jake" -> "dog"[label="type"]
+  "jake" -> "shape-shifter"[label="type"]
+  "jake" -> "Jake the Dog"[label="name"]
+  "jake" -> "finn"[label="friend of"]
+  "jake" -> "bmo"[label="friend of"]
+  "jake" -> "finn"[label="lives with"]
+  "jake" -> "bmo"[label="lives with"]
+  "jake" -> "ice-king"[label="hates"]
+  "jake" -> "marceline-abadeer"[label="afraid of"]
+  "jake" -> "ice-king"[label="hates"]
+
+  bmo [label="", image="bmo.png"]
+  "bmo" -> "MO"[label="type"]
+  "bmo" -> "BMO"[label="name"]
+  "bmo" -> "finn"[label="friend of"]
+  "bmo" -> "jake"[label="friend of"]
+  "bmo" -> "finn"[label="lives with"]
+  "bmo" -> "jake"[label="lives with"]
+  "bmo" -> "video game console"[label="is"]
+  "bmo" -> "portable electrical output"[label="is"]
+  "bmo" -> "music player"[label="is"]
+  "bmo" -> "camera"[label="is"]
+  "bmo" -> "alarm clock"[label="is"]
+  "bmo" -> "toaster"[label="is"]
+  "bmo" -> "flashlight"[label="is"]
+  "bmo" -> "skateboarder"[label="is"]
+  "bmo" -> "soccer player"[label="is"]
+  "bmo" -> "chef"[label="is"]
+  "bmo" -> "ice-king"[label="hates"]
+
+  "princess-bubblegum" [label="", image="princess-bubblegum.png"]
+  "princess-bubblegum" -> "Candy People"[label="type"];
+  "princess-bubblegum" -> "Princess Bubblegum"[label="name"];
+  "princess-bubblegum" -> "lady-rainicorn"[label="friend of"];
+  "princess-bubblegum" -> "lumpy-space-princess"[label="friend of"];
+  "princess-bubblegum" -> "ice-king"[label="hates"];
+
+  "ice-king" [label="", image="ice-king.png"]
+  "ice-king" -> "wizard"[label="type"]
+  "ice-king" -> "Ice King"[label="name"]
+  "ice-king" -> "1043"[label="age"]
+  "ice-king" -> "marceline-abadeer"[label="has crush on"]
+  "ice-king" -> "princess-bubblegum"[label="has crush on"]
+
+  "lumpy-space-princess" [label="", image="lumpy-space-princess.png"]
+  "lumpy-space-princess" -> "Lumpy Space Person"[label="type"]
+  "lumpy-space-princess" -> "Lumpy Space Princess"[label="name"]
+  "lumpy-space-princess" -> "finn"[label="has crush on"]
+  "lumpy-space-princess" -> "ice-king"[label="hates"]
+
+  "lady-rainicorn" [label="", image="lady-rainicorn.png"]
+  "lady-rainicorn" -> "Rainicorn"[label="type"]
+  "lady-rainicorn" -> "Lady Rainicorn"[label="name"]
+  "lady-rainicorn" -> "jake"[label="in love with"]
+  "lady-rainicorn" -> "princess-bubblegum"[label="friend of"]
+  "lady-rainicorn" -> "jake"[label="dating"]
+  "lady-rainicorn" -> "Korean"[label="speaks"]
+  "lady-rainicorn" -> "ice-king"[label="hates"]
+
+  "marceline-abadeer" [label="", image="marceline.png"]
+  "marceline-abadeer" -> "Vampire"[label="type"]
+  "marceline-abadeer" -> "Human/Demon"[label="type"]
+  "marceline-abadeer" -> "Marceline Abadeer"[label="name"]
+  "marceline-abadeer" -> "1003"[label="age"]
+  "marceline-abadeer" -> "finn"[label="friend of"]
+  "marceline-abadeer" -> "ice-king"[label="hates"]
+}
+
+/* sudo apt-get install graphviz */
+/* dot -Tpng input.dot > adventure-graph.png */
