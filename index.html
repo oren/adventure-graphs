@@ -15,7 +15,7 @@
 		<p>Oren Golan</p>
 	</header>
 	<section class="slide" id="cover">
-		<img src="pictures/cover.jpg" alt="" class="cover">
+		<img src="pictures/cover.jpg" alt="" class="place">
 		<!--
 			To apply styles to the certain slides
 			set slide ID to get needed elements
@@ -41,19 +41,20 @@
 	</section>
 
 	<section class="slide">
-      <img src="pictures/sanguine.png" alt="" class="cover">
+      <img src="pictures/sanguine.png" alt="" class="place">
   </section>
 
 	<section class="slide">
-      <img src="pictures/swag.png" alt="" class="cover">
+      <img src="pictures/swag.png" alt="" class="place">
   </section>
 
 	<section class="slide">
-    <img src="pictures/angular.png" alt="" class="cover">
+    <img src="pictures/angular.png" alt="" class="place">
   </section>
 
 	<section class="slide">
-    <img src="pictures/youtube.png" alt="" style="position: absolute; top: 150px;">
+    <!-- <img src="pictures/youtube.png" alt="" style="position: absolute; top: 150px;"> -->
+    <img src="pictures/youtube.png" alt="" class="place">
   </section>
 
 	<section class="slide agenda">
@@ -144,7 +145,7 @@
 	<section class="slide cover">
     <h2>Embrace relationships</h2>
     <div>
-      <img src="pictures/relationships.png" alt="" class="cover">
+      <img src="pictures/relationships.png" alt="" class="place">
     </div>
   </section>
 
@@ -213,6 +214,7 @@
   </section>
 
 	<section class="slide cover">
+    <p class="place t">Adventages of Graph databases -> Flexiblity</p>
     <div>
       <img src="pictures/flexibility1.jpg" alt="" class="cover">
     </div>
@@ -272,6 +274,45 @@
   </section>
 
 	<section class="slide">
+    <h2 style="margin-top: -70px;">Comparison</h2>
+
+    <table style="font-size: 18px;">
+    <tr>
+      <th scope="col">Database</th>
+      <th>Year</th>
+      <th>Language</th>
+      <th>Type</th>
+      <th>Query language</th>
+      <th>License</th>
+    </tr>
+    <tr>
+      <th scope="row">Neo4j</th>
+      <td>2002</td>
+      <td>Java</td>
+      <td>Property graph</td>
+      <td>Cypher or Gremlin</td>
+      <td>GPL 3 / AGPL 3</td>
+    </tr>
+    <tr>
+      <th scope="row">Titan</th>
+      <td>2012</td>
+      <td>Java</td>
+      <td>Property graph</td>
+      <td>Gremlin</td>
+      <td>Apache 2</td>
+    </tr>
+    <tr>
+      <th scope="row">Cayley</td>
+      <td>2014</td>
+      <td>Go</td>
+      <td>RDF</td>
+      <td>Gremlin-like / JS</td>
+      <td>Apache 2</td>
+    </tr>
+    </table>
+  </section>
+
+	<section class="slide">
     <img src="pictures/ttfhw.png" alt="" style="position: absolute; top: 0px; left: 100px;">
   </section>
 
@@ -288,23 +329,23 @@
   </section>
 
 	<section class="slide">
-    <img src="pictures/justin.jpg" alt="" style="margin: 0px auto;">
-  </section>
-
-	<section class="slide cover">
-    <img src="pictures/tweet.png" alt="" style="margin: 0px auto;">
+    <img src="pictures/justin.jpg" alt="" class="place">
   </section>
 
 	<section class="slide">
-    <img src="pictures/tweet2.png" alt="" style="display: block; margin: 0px auto;">
+    <img src="pictures/tweet.png" alt="" class="place">
   </section>
 
 	<section class="slide">
-    <img src="pictures/tweet-bluejays.png" alt="" style="display: block; margin: 0px auto;">
+    <img src="pictures/tweet2.png" alt="" class="place">
   </section>
 
 	<section class="slide">
-    <img src="pictures/tweet-puppies.png" alt="" style="display: block; margin: 0px auto; margin-top: -100px;">
+    <img src="pictures/tweet-bluejays.png" alt="" class="place">
+  </section>
+
+	<section class="slide">
+    <img src="pictures/tweet-puppies.png" alt="" class="place">
   </section>
 
 	<section class="slide">
@@ -316,7 +357,7 @@
 	<section class="slide">
     <div>
       <h2 style="margin-top: -70px;">Neo4j Demo</h2>
-      <iframe width="480" height="360" src="https://www.youtube.com/embed/wVkKWODHTHQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+      <iframe class="place" width="480" height="360" src="https://www.youtube.com/embed/wVkKWODHTHQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
     </div>
   </section>
 
@@ -497,13 +538,25 @@
   </section>
 
 	<section class="slide">
-    <img src="pictures/rasley.png" alt="" class="cover">
+    <img src="pictures/rasley.png" alt="" class="place">
   </section>
 
 	<section class="slide">
     <div>
       <h2 style="margin-top: -70px;">Cayley Demo</h2>
-      <iframe width="640" height="360" src="https://www.youtube.com/embed/J5o2Uh1JxKw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+      <iframe class="place" width="640" height="360" src="https://www.youtube.com/embed/J5o2Uh1JxKw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+	<section class="slide">
+    <div>
+      <h2 style="margin-top: -70px;">Learn more about Cayley</h2>
+      <ul>
+        <li>IRC on freenode - #cayley</li>
+        <li>Github - https://github.com/google/cayley</li>
+        <li>Documentation - https://github.com/google/cayley/tree/master/docs</li>
+        <li>Book - http://oren.github.io/books/cayley</li>
+      </ul>
     </div>
   </section>
 
@@ -519,23 +572,9 @@
   </section>
 
 	<section class="slide">
-    <div>
-      <h2 style="margin-top: -70px;">Other resources</h2>
-      <ul>
-        <li>github - https://github.com/google/cayley</li>
-        <li>docs - https://github.com/google/cayley/tree/master/docs </li>
-        <li>embedded docs -  https://github.com/google/cayley/wiki/Cayley-Go-API-(as-a-Library-in-your-own-projects)</li>
-        <li>godoc - https://godoc.org/github.com/google/cayley</li>
-        <li>IRC on freenode - #cayley</li>
-      </ul>
-    </div>
-  </section>
-
-	<section class="slide">
-    <div>
-    <h2 style="margin-top: -70px;">Thank you!</h2>
-    <img src="pictures/thanks.gif" alt="" class="cover">
-    </div>
+    <h2 class="place t" style="margin-top: 100px;">Thank you!</h2>
+    <img src="pictures/thanks.gif" alt="" class="place">
+    <a class="place b" style="margin-bottom: 100px;" href="https://oren.github.io">oren.github.io</a>
   </section>
 
 	<p class="badge">
