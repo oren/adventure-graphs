@@ -2,6 +2,8 @@
 
 https://oren.github.io/talks/graphs.html
 
+![graphs](graphs.jpg)
+
 ## Publish
 
 ```
