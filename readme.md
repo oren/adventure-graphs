@@ -1,6 +1,6 @@
-# Adventure Time in Graph Databases
+# Introduction to Graph Databases
 
-https://oren.github.io/talks/graphs.html
+https://oren.github.io/talks/graphs-intro.html
 
 ![graphs](graphs.jpg)
 
